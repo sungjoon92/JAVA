@@ -31,12 +31,7 @@ class Incheon extends Object{
 	}
 }//class end
 
-class Seoul {
-	
-}
-
-
-
+class Seoul {}
 
 public class Test02_Object extends Object { //extends Object 생략
 
@@ -72,15 +67,6 @@ public class Test02_Object extends Object { //extends Object 생략
 		
 		se= null;
 		System.out.println(se);
-		
-	
-		
-		
-		
-		
-		
-		
-		
 		
 	}//main end
 }//class end

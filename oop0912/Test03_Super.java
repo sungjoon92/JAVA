@@ -15,9 +15,6 @@ public class Test03_Super {
 		
 		//School 클래스 생성		
 		
-		
-		
-		
 		//상속관계헤서 생성자 함수 호출순서
 		// -> 부모생성자가 먼저 호출되고 자신의 생성자 함수가 호출된다
 		MiddleSchool ms = new MiddleSchool();
@@ -26,26 +23,6 @@ public class Test03_Super {
 		
 		HighSchool hs = new HighSchool();
 		hs.disp();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}//main end
 }//class end

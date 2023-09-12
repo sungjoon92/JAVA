@@ -129,7 +129,7 @@ String mn = juminno.substring(size-1,size);
 		
 		
 	
-		int myburth= now.get(Calendar.YEAR, 1989); //2023
+//		int myburth= now.get(Calendar.YEAR, 1989); //2023
 	 
 	
 		
