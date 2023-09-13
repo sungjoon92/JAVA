@@ -20,7 +20,6 @@ public class Test03_Super {
 		MiddleSchool ms = new MiddleSchool();
 		ms.disp();
 		
-		
 		HighSchool hs = new HighSchool();
 		hs.disp();
 		
