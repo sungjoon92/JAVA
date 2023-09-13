@@ -4,30 +4,31 @@ package oop0911;
 //final class AA{}
 
 class AA {
-	private void zero() {}// private은 상속불가
+	private void zero() {
+	}// private은 상속불가
+
 	public void one() {
 		System.out.println("AA.one()...");
-	}//one end
-	
+	}// one end
+
 	public void two() {
 		System.out.println("AA.two()...");
-	}//two end
-}//class end
-
+	}// two end
+}// class end
 
 //자식클래스 BB, 부모클래스 AA
 class BB extends AA {
 	public void three() {
 		System.out.println("BB.three()...");
-	}//three end
-}//class end
+	}// three end
+}// class end
 
 //자식클래스 CC 부모클래스 BB
-class CC extends BB{
+class CC extends BB {
 	public void four() {
 		System.out.println("CC.four()...");
-	}//four end
-}//class end
+	}// four end
+}// class end
 
 /*
 
@@ -36,9 +37,3 @@ class CC extends BB{
 	class DD{}
 	class EE extends AA ,DD{}
 */
-
-
-
-
-
-

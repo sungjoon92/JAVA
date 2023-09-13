@@ -2,13 +2,13 @@ package oop0911;
 
 class MemberDTO {
 
-	//멤버변수 field
-	private int mno;		//일련번호
-	private String id;		//아이디
-	private String passwd;	//비밀번호	
-	private String email;	//이메일
+	// 멤버변수 field
+	private int mno; // 일련번호
+	private String id; // 아이디
+	private String passwd; // 비밀번호
+	private String email; // 이메일
 
-	//생성자 함수 constryctor
+	// 생성자 함수 constryctor
 	public MemberDTO() {
 		// TODO Auto-generated constructor stub
 	}
@@ -51,12 +51,5 @@ class MemberDTO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
 
-	
-	
-	
-	
-}//class end
-
-
+}// class end
