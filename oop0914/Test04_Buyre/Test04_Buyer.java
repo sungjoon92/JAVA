@@ -15,6 +15,6 @@ public class Test04_Buyer {
 
 		// 3)상품 구매하기
 		// -> Buyer 클래스
-
+ 
 	}// main end
 }// class end
