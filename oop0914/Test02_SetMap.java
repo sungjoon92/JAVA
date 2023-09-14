@@ -29,7 +29,7 @@ public class Test02_SetMap {
 //			//corsor가 가리키는 요소 가져오기
 //			Object obj = iter.next(); //cursor가 가리키는 요소 가져오기
 //			System.out.println(obj);
-//		}
+//			}
 //		
 //		//3. Map 계열 : 순서가 없다
 //		//->Key		 : 이름표
@@ -78,7 +78,7 @@ public class Test02_SetMap {
 		HashMap hm = new HashMap();
 
 		// 1)커서 생성하기
-		Iterator cursor = command.iterator();
+		Iterator cursor = command.iterator(); 
 
 		Object bb = new Object();
 		// 2)커서가 있을때까지 반복
