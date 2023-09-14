@@ -14,16 +14,38 @@ public class Product {
 		// 상품가격의 10%를 보너스 점수 책정
 		this.bonuspoint = (int) (Price * 0.1);
 	}// end
-}// class end
+}// Product class end
 
 class SmartTV extends Product {
 	public SmartTV() {
-		super(100); //상품가격 Price100, bonusPoint=10%
+		super(100); // 상품가격 Price100, bonusPoint=10%
 	}
-}// class end
+
+	@Override
+	public String toString() {
+		return "스마트TV";// 상품명
+	}
+
+}// SmartTV class end
 
 class Notebook extends Product {
-}// class end
+	public Notebook() {
+		super(200); // 상품가격 Price200, bonusPoint=20%
+	}
+
+	@Override
+	public String toString() {
+		return "노트북";// 상품명
+	}
+}// Notebook class end
 
 class HandPhone extends Product {
-}// class end
+	public HandPhone() {
+		super(100); // 상품가격 Price100, bonusPoint=10%
+	}
+
+	@Override
+	public String toString() {
+		return "핸드폰";// 상품명
+	}
+}// HandPhone class end
