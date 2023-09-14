@@ -41,7 +41,7 @@ class Notebook extends Product {
 
 class HandPhone extends Product {
 	public HandPhone() {
-		super(100); // 상품가격 Price100, bonusPoint=10%
+		super(150); // 상품가격 Price150, bonusPoint=15%
 	}
 
 	@Override
