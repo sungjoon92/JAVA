@@ -24,7 +24,7 @@ public class Test04_Buyer {
 		kim.buy(note);		//200
 		kim.buy(note);		//200
 		kim.buy(note);		//잔액부족
-		
+		 
 		kim.disp();
 		System.out.println("--------------------------");
 		//4)반품하기
