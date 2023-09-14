@@ -8,11 +8,11 @@ public class Product {
 	public Product() {
 	}// 기본 생성자 함수
 
-	public Product(int Price) {
+	public Product(int price) {
 		// this.멤버변수=지역변수
 		this.price = price;
 		// 상품가격의 10%를 보너스 점수 책정
-		this.bonuspoint = (int) (Price * 0.1);
+		this.bonuspoint = (int) (price * 0.1);
 	}// end
 }// Product class end
 
@@ -43,7 +43,7 @@ class HandPhone extends Product {
 	public HandPhone() {
 		super(150); // 상품가격 Price150, bonusPoint=15%
 	}
-
+ 
 	@Override
 	public String toString() {
 		return "핸드폰";// 상품명
