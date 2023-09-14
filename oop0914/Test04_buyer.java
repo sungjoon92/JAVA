@@ -3,14 +3,10 @@ package oop0914;
 public class Test04_buyer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// 상품 구매 및 반품 프로그램
 
-		
-		
-		
-		
-		
-		
-	}//main end
+		// 1)상품 만들기
+		// -> Product 클래스
 
-}//class end
+	}// main end
+}// class end
