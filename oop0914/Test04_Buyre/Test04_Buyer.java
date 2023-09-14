@@ -1,6 +1,6 @@
-package oop0914;
+package oop0914.Test04_Buyre;
 
-public class Test04_buyer {
+public class Test04_Buyer {
 
 	public static void main(String[] args) {
 		// 상품 구매 및 반품 프로그램

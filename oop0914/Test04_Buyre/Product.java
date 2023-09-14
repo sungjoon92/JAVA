@@ -1,4 +1,4 @@
-package oop0914;
+package oop0914.Test04_Buyre;
 
 public class Product {
 
