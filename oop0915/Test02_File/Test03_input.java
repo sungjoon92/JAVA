@@ -6,13 +6,13 @@ public class Test03_input {
 
 	public static void main(String[] args) {
 
-		String filename = "D:/java202307/workspace/basic01_java/src/oop0915/Test2_File/data.txt";
+		String filename = "D:/java202307/workspace/basic01_java/src/oop0915/Test02_File/data.txt";
 
 		FileReader fr = null;
 		try {
 			fr = new FileReader(filename);
 			while (true) {
-				int data = fr.read(); // 2바ㅣ트 읽기
+				int data = fr.read(); // 2바이트 읽기
 				if (data == -1) {
 					break;
 				} // if end
@@ -26,7 +26,7 @@ public class Test03_input {
 			try {
 				if (fr != null) {
 					fr.close();
-				}//if end
+				} // if end
 			} catch (Exception e2) {
 				// TODO: handle exception
 			} // try end
