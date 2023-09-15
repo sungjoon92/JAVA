@@ -19,9 +19,9 @@ public class Test02_input {
 
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream(filename);
+			fis = new FileInputStream(filename); //FileInputStream 바이트 형식 
 
-			while (true) { 
+			while (true) {
 				int data = fis.read(); // 1바이트 읽기
 				if (data == -1) { // 파일의 끝인지 End OF File
 					break;
