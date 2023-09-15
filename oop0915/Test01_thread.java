@@ -8,18 +8,18 @@ class MyThread1{
 	public MyThread1(int num, String name) {
 		this.num = num;
 		this.name = name;
-	}
+	}//end
 	
 	public void start() {
 		run();
-	}
+	}//end
 	
 	public void run() {
 		for(int a=0; a<num; a++) {
 			System.out.println(name+":"+a);
-		}
-	}
-}
+		}//for end
+	}//public end
+}//MyThread1 class ends
 
 public class Test01_thread {
 
@@ -36,5 +36,5 @@ public class Test01_thread {
 		t2.start();
 		t3.start();
 		
-	}
-}
+	}//main end
+}//Test01_thread class end
