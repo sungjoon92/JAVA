@@ -45,9 +45,9 @@ public class Test04_File {
 				System.out.println("파일명:" + ext);
 
 //				if(file.delete()) {
-//					System.out.println(fileneme+"파일이 삭제 되었습니다");
+//					System.out.println(filename+"파일이 삭제 되었습니다");
 //				}else {
-//					System.out.println(fileneme+"파일이 삭제 되었습니다");
+//					System.out.println(filename+"파일이 삭제 되었습니다");
 //				}//if end
 
 			} else {
