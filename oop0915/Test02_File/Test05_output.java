@@ -12,7 +12,7 @@ public class Test05_output {
 		// -> 없으면 파일은 생성된다 (create)
 		// -> 있으면 덮어쓰기(overwrite) 또는 추가(append)
 
-		String fileName = "D:\\java202307\\workspace\\basic01_java\\src\\oop0915\\Test2_File\\sungjuk.txt";
+		String fileName = "D:/java202307/workspace/basic01_java/src/oop0915/Test02_File/sungjuk.txt";
 
 		FileWriter fw = null;
 		PrintWriter out = null;
@@ -21,7 +21,8 @@ public class Test05_output {
 
 			// true : append
 			// false : overwrite
-			fw = new FileWriter(fileName, true);
+			fw = new FileWriter(fileName, false);
+			// true:중접 , false:기존글 삭제후 글 출력
 
 			// autoFlush : true 버퍼클리어
 			out = new PrintWriter(fw, true);
@@ -50,7 +51,7 @@ public class Test05_output {
 				} // if end
 			} // try end
 
-		} // try end
+		} // try ~ catch end
 
 	}// main end
 }// class end
