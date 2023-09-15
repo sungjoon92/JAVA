@@ -15,19 +15,19 @@ public class Test02_input {
 
 		// char형 : 2바이트 할당
 
-		String filename = "D:/java202307/workspace/basic01_java/src/oop0915/Test2_File/data.txt";
-		
+		String filename = "D:/java202307/workspace/basic01_java/src/oop0915/Test02_File/data.txt";
+
 		FileInputStream fis = null;
 		try {
 			fis = new FileInputStream(filename);
 
-			while (true) {
+			while (true) { 
 				int data = fis.read(); // 1바이트 읽기
 				if (data == -1) { // 파일의 끝인지 End OF File
 					break;
 				} // if end
-				//System.out.println(data);
-				System.out.printf("%c",data);
+					// System.out.println(data);
+				System.out.printf("%c", data);
 			} // while end
 
 		} catch (Exception e) {
